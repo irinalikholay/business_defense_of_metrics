@@ -18,3 +18,18 @@ print("\n*** NAIVE BUSINESS METRICS ***")
 print(f"Total orders: {total_orders}")
 print(f"Total revenue: {total_revenue:.2f}")
 print(f"Average Order Value (AOV): {average_order_value:.2f}")
+
+## DISTRIBUTION REALITY CHECK
+
+print("\n*** DISTRIBUTION REALITY CHECK *** ")
+
+median_order_value = df["order_value"].median()
+
+p50 = df["order_value"].quantile(0.50)
+p75 = df["order_value"].quantile(0.75)
+p95 = df["order_value"].quantile(0.95)
+
+print(f"Median order value: {median_order_value:.2f}")
+print(f"50th percentile (P50): {p50:.2f}")
+print(f"75th percentile (P75): {p75:.2f}")
+print(f"95th percentile (P95): {p95:.2f}")

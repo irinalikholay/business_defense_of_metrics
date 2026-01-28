@@ -15,3 +15,14 @@ If the company relies solely on AOV:
  - customer value may be overestimated
 
  This can lead to poor strategic and operational decision.
+
+ ## Distribution Reality Chech
+
+ To validate whether AOV reflects typical customer behavior, we analyzed the distribution of order values.
+
+ Key observations:
+  - The median order value is significantly lower than the mean (AOV)
+  - 75 % of orders are below a relatively low threshold
+  - Only a small fraction of orders reach very high values
+
+This indicates a highly right-skewed distribution , where most customers spend far less then the reported average.
