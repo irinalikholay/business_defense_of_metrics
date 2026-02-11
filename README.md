@@ -67,3 +67,55 @@ reflecting the average behavior of the majority of customers.
 Recommendation:
 For decision-making and reporting, the median order value should be used
 alongside percentiles and trimmed averages rather than relying solely on AOV.
+
+## Business Impact
+
+Relying solely on Average Order Value (AOV) can lead to incorrect business decisions.
+
+Since AOV is heavily influenced by a small number of high-value orders,
+it overestimates the spending behavior of the majority of customers.
+
+As a result, several business risks emerge:
+
+- Pricing decisions may be skewed towards higher price points,
+making products less accessible for the majority of customers.
+
+- Marketing campaigns may target unrealistic customer segments,
+assuming higher willingness to pay than most customers actually have.
+
+- Customer segmentation based on AOV may incorrectly classify
+typical customers as high-value or underperforming.
+
+Using median and percentile-based metrics provides a more accurate view
+of customer behavior and helps align business strategies with reality.
+
+
+## Summary
+
+The analysis shows that Average Order Value (AOV) is not a reliable metric for representing typical customer behavior due to a highly right-skewed order value distribution. A small fraction of high-value orders disproportionately inflates the average.
+
+## Key Findings
+- The median order value is significantly lower than the mean (AOV)
+- Top 1–10% of orders generate a large share of total revenue
+- Most customers place relatively low-value orders
+- AOV is driven by rare, expensive transactions rather than typical behavior
+
+## Business Impact
+
+Relying solely on AOV can lead to:
+- Incorrect pricing decisions
+- Misinterpreted marketing performance
+- Overestimated customer value
+- Poor customer segmentation strategies
+
+## Recommendation
+
+For decision-making and reporting, the business should:
+- Use Median Order Value as the primary indicator of typical customer behavior
+- Complement it with percentiles (75th, 90th, 95th) to understand high-value thresholds
+- Use trimmed AOV when an average metric is required, excluding extreme outliers
+
+## Final Conclusion
+
+AOV should not be used in isolation.
+A combination of median, percentiles, and trimmed averages provides a more accurate, stable, and business-relevant view of customer value.
